@@ -1,0 +1,672 @@
+[
+  {
+    "super_bowl": 52,
+    "musician": "Justin Timberlake",
+    "num_songs": 11
+  },
+  {
+    "super_bowl": 52,
+    "musician": "University of Minnesota Marching Band",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 51,
+    "musician": "Lady Gaga",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Coldplay",
+    "num_songs": 6
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Beyoncé",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Bruno Mars",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Mark Ronson",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 50,
+    "musician": "University of California Marching Band",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Youth Orchestra Los Angeles",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 50,
+    "musician": "Gustavo Dudamel",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 49,
+    "musician": "Katy Perry",
+    "num_songs": 8
+  },
+  {
+    "super_bowl": 49,
+    "musician": "Lenny Kravitz",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 49,
+    "musician": "Missy Elliott",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 49,
+    "musician": "Arizona State University Sun Devil Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 48,
+    "musician": "Bruno Mars",
+    "num_songs": 6
+  },
+  {
+    "super_bowl": 48,
+    "musician": "Red Hot Chili Peppers",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 47,
+    "musician": "Beyoncé",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 47,
+    "musician": "Destiny's Child",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 47,
+    "musician": "Kelly Rowland",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 47,
+    "musician": "Michelle Williams",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 46,
+    "musician": "Madonna",
+    "num_songs": 5
+  },
+  {
+    "super_bowl": 46,
+    "musician": "LMFAO",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 46,
+    "musician": "Nicki Minaj",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 46,
+    "musician": "M.I.A.",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 46,
+    "musician": "Cee Lo Green",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 45,
+    "musician": "The Black Eyed Peas",
+    "num_songs": 6
+  },
+  {
+    "super_bowl": 45,
+    "musician": "Slash",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 45,
+    "musician": "Usher",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 45,
+    "musician": "will.i.am",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 45,
+    "musician": "Fergie",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 44,
+    "musician": "The Who",
+    "num_songs": 5
+  },
+  {
+    "super_bowl": 43,
+    "musician": "Bruce Springsteen and the E Street Band",
+    "num_songs": 4
+  },
+  {
+    "super_bowl": 42,
+    "musician": "Tom Petty & the Heartbreakers",
+    "num_songs": 4
+  },
+  {
+    "super_bowl": 41,
+    "musician": "Prince",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 41,
+    "musician": "Florida A&M University Marching 100 Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 40,
+    "musician": "The Rolling Stones",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 39,
+    "musician": "Paul McCartney",
+    "num_songs": 4
+  },
+  {
+    "super_bowl": 38,
+    "musician": "Jessica Simpson",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 38,
+    "musician": "Janet Jackson",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 38,
+    "musician": "P. Diddy",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 38,
+    "musician": "Nelly",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 38,
+    "musician": "Kid Rock",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 38,
+    "musician": "Justin Timberlake",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 38,
+    "musician": "The Ocean of Soul Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 38,
+    "musician": "The Spirit of Houston Cougar Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 37,
+    "musician": "Shania Twain",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 37,
+    "musician": "No Doubt",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 37,
+    "musician": "Sting",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 36,
+    "musician": "U2",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 35,
+    "musician": "Aerosmith",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 35,
+    "musician": "NSYNC",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 35,
+    "musician": "Britney Spears",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 35,
+    "musician": "Mary J. Blige",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 35,
+    "musician": "Nelly",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 34,
+    "musician": "Phil Collins",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 34,
+    "musician": "Christina Aguilera",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 34,
+    "musician": "Enrique Iglesias",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 34,
+    "musician": "Toni Braxton",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 33,
+    "musician": "Gloria Estefan",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 33,
+    "musician": "Stevie Wonder",
+    "num_songs": 4
+  },
+  {
+    "super_bowl": 33,
+    "musician": "Big Bad Voodoo Daddy",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 32,
+    "musician": "Boyz II Men",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 32,
+    "musician": "Smokey Robinson",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 32,
+    "musician": "Martha Reeves",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 32,
+    "musician": "The Temptations",
+    "num_songs": 4
+  },
+  {
+    "super_bowl": 32,
+    "musician": "Queen Latifah",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 32,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 31,
+    "musician": "The Blues Brothers",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 31,
+    "musician": "ZZ Top",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 31,
+    "musician": "James Brown",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 30,
+    "musician": "Diana Ross",
+    "num_songs": 10
+  },
+  {
+    "super_bowl": 29,
+    "musician": "Patti Labelle",
+    "num_songs": 3
+  },
+  {
+    "super_bowl": 29,
+    "musician": "Tony Bennett",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 29,
+    "musician": "Arturo Sandoval",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 29,
+    "musician": "Miami Sound Machine",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 28,
+    "musician": "Clint Black",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 28,
+    "musician": "Tanya Tucker",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 28,
+    "musician": "Travis Tritt",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 28,
+    "musician": "The Judds",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 28,
+    "musician": "Wynonna Judd",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 27,
+    "musician": "Michael Jackson",
+    "num_songs": 5
+  },
+  {
+    "super_bowl": 26,
+    "musician": "Gloria Estefan",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 26,
+    "musician": "University of Minnesota Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 25,
+    "musician": "New Kids on the Block",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 24,
+    "musician": "Pete Fountain",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 24,
+    "musician": "Doug Kershaw",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 24,
+    "musician": "Irma Thomas",
+    "num_songs": 1
+  },
+  {
+    "super_bowl": 24,
+    "musician": "Pride of Nicholls Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 24,
+    "musician": "The Human Jukebox",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 24,
+    "musician": "Pride of Acadiana",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 23,
+    "musician": "Elvis Presto",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 22,
+    "musician": "Chubby Checker",
+    "num_songs": 2
+  },
+  {
+    "super_bowl": 22,
+    "musician": "San Diego State University Marching Aztecs",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 22,
+    "musician": "Spirit of Troy",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 21,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": 8
+  },
+  {
+    "super_bowl": 21,
+    "musician": "Spirit of Troy",
+    "num_songs": 8
+  },
+  {
+    "super_bowl": 20,
+    "musician": "Up with People",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 19,
+    "musician": "Tops In Blue",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 18,
+    "musician": "The University of Florida Fightin' Gator Marching Band",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 18,
+    "musician": "The Florida State University Marching Chiefs",
+    "num_songs": 7
+  },
+  {
+    "super_bowl": 17,
+    "musician": "Los Angeles Unified School District All City Honor Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 16,
+    "musician": "Up with People",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 15,
+    "musician": "The Human Jukebox",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 15,
+    "musician": "Helen O'Connell",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 14,
+    "musician": "Up with People",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 14,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 13,
+    "musician": "Ken Hamilton",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 13,
+    "musician": "Gramacks",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 12,
+    "musician": "Tyler Junior College Apache Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 12,
+    "musician": "Pete Fountain",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 12,
+    "musician": "Al Hirt",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 11,
+    "musician": "Los Angeles Unified School District All City Honor Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 10,
+    "musician": "Up with People",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 9,
+    "musician": "Mercer Ellington",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 9,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 8,
+    "musician": "University of Texas Longhorn Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 8,
+    "musician": "Judy Mallett",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 7,
+    "musician": "University of Michigan Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 7,
+    "musician": "Woody Herman",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 7,
+    "musician": "Andy Williams",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 6,
+    "musician": "Ella Fitzgerald",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 6,
+    "musician": "Carol Channing",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 6,
+    "musician": "Al Hirt",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 6,
+    "musician": "United States Air Force Academy Cadet Chorale",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 5,
+    "musician": "Southeast Missouri State Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 4,
+    "musician": "Marguerite Piazza",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 4,
+    "musician": "Doc Severinsen",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 4,
+    "musician": "Al Hirt",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 4,
+    "musician": "The Human Jukebox",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 3,
+    "musician": "Florida A&M University Marching 100 Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 2,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 1,
+    "musician": "University of Arizona Symphonic Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 1,
+    "musician": "Grambling State University Tiger Marching Band",
+    "num_songs": ""
+  },
+  {
+    "super_bowl": 1,
+    "musician": "Al Hirt",
+    "num_songs": ""
+  }
+]
