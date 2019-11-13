@@ -1,0 +1,63 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: Super Bowl API
+host: localhost:3000
+basePath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /superbowls:
+    get:
+      summary: List of Super Bowls
+      description: Gets a list of all the past Super Bowls, including the event number, the venue, and the participating teams.
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: array
+            items:
+              type: object
+              properties:
+                _id:
+                  type: string
+                super_bowl:
+                  type: number
+                team_winner:
+                  type: string
+                team_loser:
+                  type: string
+                venue:
+                  type: string
+                city:
+                  type: string
+                state:
+                  type: string
+    post:
+      summary: Adds game
+      description: Adds a new Super Bowl.
+      parameters:
+        - name: Super Bowl
+      schema:
+        $ref: "#/models/SuperBowl"
+      responses:
+        200:
+          description: OK
+
+  /superbowls/{id}:
+    parameters:
+      - name: id
+        in: path
+        description: ID of a particular Super Bowl
+        type: string
+        required: true
+    get:
+      summary: Returns a particular Super Bowl
+      description: Gets a list of stats for a Super Bowl, including teams, coaches, scores, halftime performers, and ratings.
+      responses:
+        "200":
+          description: OK
