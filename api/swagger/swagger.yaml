@@ -1,4 +1,4 @@
-swagger: "2.0"
+swagger: "3.0"
 info:
   version: "1.0.0"
   title: Super Bowl API
@@ -40,10 +40,12 @@ paths:
     post:
       summary: Adds game
       description: Adds a new Super Bowl.
-      parameters:
-        - name: Super Bowl
-      schema:
-        $ref: "#/models/SuperBowl"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+            $ref: "lib/models/SuperBowl.js"
       responses:
         200:
           description: OK
