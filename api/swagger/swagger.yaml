@@ -38,6 +38,28 @@ paths:
             $ref: "#/definitions/SuperBowl"
         405:
           description: Invalid input
+    post:
+      tags:
+        - Super Bowls
+      summary: Add a new game
+      operationId: create
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          description: Super Bowl object that needs to be added
+          required: true
+          schema:
+            $ref: "#/definitions/SuperBowl"
+      responses:
+        200:
+          description: Are You Ready for Some Football?
+
+        405:
+          description: Invalid input
 
   /superbowls/{id}:
     get:
@@ -75,33 +97,6 @@ paths:
                 type: string
               state:
                 type: string
-        405:
-          description: Invalid input
-    post:
-      tags:
-        - Super Bowls
-      summary: Add a new game
-      operationId: create
-      consumes:
-        - application/json
-      produces:
-        - application/json
-      parameters:
-        - in: path
-          name: id
-          description: Super Bowl ID to fetch
-          required: true
-          type: string
-        - in: body
-          name: body
-          description: Super Bowl object that needs to be added
-          required: true
-          schema:
-            $ref: "#/definitions/SuperBowl"
-      responses:
-        200:
-          description: Are You Ready for Some Football?
-
         405:
           description: Invalid input
 
@@ -203,68 +198,94 @@ definitions:
     properties:
       super_bowl:
         type: integer
+        example: 52
       network:
         type: string
+        example: "NBC"
       avg_us_viewers:
         type: integer
+        example: 103390000
       total_us_viewers:
         type: number
+        example: 103400000
       rating_household:
         type: number
+        example: 47.5
       ad_cost:
         type: number
+        example: 4500000
 
   Halftime:
     type: object
     properties:
       super_bowl:
         type: integer
+        example: 52
       musician:
         type: string
+        example: "Justin Timberlake"
       num_songs:
         type: integer
+        example: 11
 
   SuperBowl:
     type: object
     properties:
       _id:
         type: string
+        example: "5dcb7b2f9f34556b7efeef0f"
       qb_winner:
         type: array
         items:
           type: string
+          example: "Nick Foles"
       qb_loser:
         type: array
         items:
           type: string
+          example: "Tom Brady"
       date:
         type: string
+        example: "2018-02-04"
       super_bowl:
         type: integer
+        example: 52
       venue:
         type: string
+        example: "U.S. Bank Stadium"
       city:
         type: string
+        example: "Minneapolis"
       state:
         type: string
+        example: "Minnesota"
       attendance:
         type: integer
+        example: 67612
       team_winner:
         type: string
+        example: "Philadelphia Eagles"
       winning_pts:
         type: integer
+        example: 41
       coach_winner:
         type: string
+        example: "Doug Pederson"
       team_loser:
         type: string
+        example: "New England Patriots"
       losing_pts:
         type: integer
+        example: 33
       coach_loser:
         type: string
+        example: "Bill Belichick"
       combined_pts:
         type: integer
+        example: 74
       difference_pts:
         type: integer
+        example: 8
       halftimePerformer:
         type: array
         items:
