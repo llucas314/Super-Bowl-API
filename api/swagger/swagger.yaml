@@ -1,65 +1,280 @@
-swagger: "3.0"
+swagger: "2.0"
 info:
-  version: "1.0.0"
-  title: Super Bowl API
+  description: |
+    This is an API of all the pasts NFL Super Bowls containing stats about the game and halftime show.
+  version: 1.0.0
+  title: Super Bowl Center
+  termsOfService: http://swagger.io/terms/
+  contact:
+    name: Lorenzo Lucas
+    email: llucas314@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+# host:
+# basePath: /v2
+tags:
+  - name: Super Bowls
+    description: Everything about the NFL's championship game
+  - name: Halftime Shows
+    description: Descriptions of halftime performances
+# schemes:
+# - http
+paths:
+  /superbowls:
+    get:
+      tags:
+        - Super Bowls
+      summary: Get all stats for every Super Bowl game
+      operationId: index
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Are You Ready for Some Football?
+          schema:
+            $ref: "#/definitions/SuperBowl"
+        405:
+          description: Invalid input
+
+  /superbowls/{id}:
+    get:
+      tags:
+        - Super Bowls
+      summary: Get all stats for a single Super Bowl game
+      operationId: showSuperBowl
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          description: Super Bowl ID to fetch
+          required: true
+          type: string
+      responses:
+        200:
+          description: Are You Ready for Some Football?
+          schema:
+            type: object
+            properties:
+              _id:
+                type: string
+              super_bowl:
+                type: number
+              team_winner:
+                type: string
+              team_loser:
+                type: string
+              venue:
+                type: string
+              city:
+                type: string
+              state:
+                type: string
+        405:
+          description: Invalid input
+    post:
+      tags:
+        - Super Bowls
+      summary: Add a new game
+      operationId: create
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          description: Super Bowl ID to fetch
+          required: true
+          type: string
+        - in: body
+          name: body
+          description: Super Bowl object that needs to be added
+          required: true
+          schema:
+            $ref: "#/definitions/SuperBowl"
+      responses:
+        200:
+          description: Are You Ready for Some Football?
+
+        405:
+          description: Invalid input
+
+    put:
+      tags:
+        - Super Bowls
+      summary: Update an existing Super Bowl
+      operationId: edit
+      consumes:
+        - application/json
+
+      produces:
+        - application/json
+
+      parameters:
+        - in: path
+          name: id
+          description: Super Bowl ID to fetch
+          required: true
+          type: string
+        - in: body
+          name: body
+          description: Super Bowl object that needs to be updated
+          required: true
+          schema:
+            $ref: "#/definitions/SuperBowl"
+      responses:
+        400:
+          description: Invalid ID supplied
+        404:
+          description: Super Bowl not found
+        405:
+          description: Validation exception
+    delete:
+      tags:
+        - Super Bowls
+      summary: Deletes a Super Bowl game
+      operationId: delete
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          description: Super Bowl ID to fetch
+          required: true
+          type: string
+      responses:
+        400:
+          description: Invalid ID supplied
+        404:
+          description: Game not
+  /halftimes:
+    get:
+      tags:
+        - Halftime Shows
+      summary: The stats for every Super Bowl halftime show
+      operationId: showHalftimes
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Remember when Beyonce had a football game at her concert?
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Halftime"
+        405:
+          description: Invalid input
+
+  /halftimes/{bowlNumber}:
+    get:
+      tags:
+        - Halftime Shows
+      summary: The stats for a single Super Bowl halftime show
+      operationId: showHalftimeId
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: bowlNumber
+          description: Super Bowl number to fetch
+          required: true
+          type: string
+      responses:
+        200:
+          description: Are You Ready for Some Football?
+          schema:
+            $ref: "#/definitions/Halftime"
+        405:
+          description: Invalid input
+
+definitions:
+  View:
+    type: object
+    properties:
+      super_bowl:
+        type: integer
+      network:
+        type: string
+      avg_us_viewers:
+        type: integer
+      total_us_viewers:
+        type: number
+      rating_household:
+        type: number
+      ad_cost:
+        type: number
+
+  Halftime:
+    type: object
+    properties:
+      super_bowl:
+        type: integer
+      musician:
+        type: string
+      num_songs:
+        type: integer
+
+  SuperBowl:
+    type: object
+    properties:
+      _id:
+        type: string
+      qb_winner:
+        type: array
+        items:
+          type: string
+      qb_loser:
+        type: array
+        items:
+          type: string
+      date:
+        type: string
+      super_bowl:
+        type: integer
+      venue:
+        type: string
+      city:
+        type: string
+      state:
+        type: string
+      attendance:
+        type: integer
+      team_winner:
+        type: string
+      winning_pts:
+        type: integer
+      coach_winner:
+        type: string
+      team_loser:
+        type: string
+      losing_pts:
+        type: integer
+      coach_loser:
+        type: string
+      combined_pts:
+        type: integer
+      difference_pts:
+        type: integer
+      halftimePerformer:
+        type: array
+        items:
+          $ref: "#/definitions/Halftime"
+      viewer:
+        type: array
+        items:
+          $ref: "#/definitions/View"
+
 host: localhost:3000
 basePath: /
 schemes:
   - http
-consumes:
-  - application/json
-produces:
-  - application/json
-paths:
-  /superbowls:
-    get:
-      summary: List of Super Bowls
-      description: Gets a list of all the past Super Bowls, including the event number, the venue, and the participating teams.
-      responses:
-        "200":
-          description: OK
-          schema:
-            type: array
-            items:
-              type: object
-              properties:
-                _id:
-                  type: string
-                super_bowl:
-                  type: number
-                team_winner:
-                  type: string
-                team_loser:
-                  type: string
-                venue:
-                  type: string
-                city:
-                  type: string
-                state:
-                  type: string
-    post:
-      summary: Adds game
-      description: Adds a new Super Bowl.
-      requestBody:
-        required: true
-        content:
-          application/json:
-            schema:
-            $ref: "lib/models/SuperBowl.js"
-      responses:
-        200:
-          description: OK
-
-  /superbowls/{id}:
-    parameters:
-      - name: id
-        in: path
-        description: ID of a particular Super Bowl
-        type: string
-        required: true
-    get:
-      summary: Returns a particular Super Bowl
-      description: Gets a list of stats for a Super Bowl, including teams, coaches, scores, halftime performers, and ratings.
-      responses:
-        "200":
-          description: OK
