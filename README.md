@@ -2,8 +2,6 @@
 
 This repository is a Super Bowl Facts API created with ExpressJS and MongoDB. It lists stats about the games, halftime shows, and ratings.
 
-[Check out the website here!](https://zealous-villani-add409.netlify.com)
-
 
 ## Screenshots
 
@@ -20,9 +18,6 @@ This repository is a Super Bowl Facts API created with ExpressJS and MongoDB. It
 
 ## Documentation
 
-1. Fork and clone this repository.
-2. Run `npm install` to install dependancies.
-3. Run `npm start` to run the React app.
 
 
 ## Contributing
