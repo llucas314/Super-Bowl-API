@@ -295,7 +295,7 @@ definitions:
         items:
           $ref: "#/definitions/View"
 
-host: localhost:3000
+host: super-bowl-api.herokuapp.com
 basePath: /
 schemes:
-  - http
+  - https
