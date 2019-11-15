@@ -83,8 +83,8 @@ paths:
             type: array
             items:
               $ref: "#/definitions/SuperBowl"
-        400:
-          description: Invalid state value
+        405:
+          description: Invalid input
 
   /superbowls/{id}:
     get:
@@ -149,10 +149,6 @@ paths:
           schema:
             $ref: "#/definitions/SuperBowl"
       responses:
-        400:
-          description: Invalid ID supplied
-        404:
-          description: Super Bowl not found
         405:
           description: Validation exception
     delete:
@@ -169,10 +165,8 @@ paths:
           required: true
           type: string
       responses:
-        400:
-          description: Invalid ID supplied
-        404:
-          description: Game not
+        405:
+          description: Invalid input
   /halftimes:
     get:
       tags:

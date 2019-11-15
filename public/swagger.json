@@ -114,8 +114,8 @@
        }
       }
      },
-     "400": {
-      "description": "Invalid state value"
+     "405": {
+      "description": "Invalid input"
      }
     }
    }
@@ -208,12 +208,6 @@
      }
     ],
     "responses": {
-     "400": {
-      "description": "Invalid ID supplied"
-     },
-     "404": {
-      "description": "Super Bowl not found"
-     },
      "405": {
       "description": "Validation exception"
      }
@@ -238,11 +232,8 @@
      }
     ],
     "responses": {
-     "400": {
-      "description": "Invalid ID supplied"
-     },
-     "404": {
-      "description": "Game not"
+     "405": {
+      "description": "Invalid input"
      }
     }
    }
