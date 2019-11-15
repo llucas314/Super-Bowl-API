@@ -83,7 +83,7 @@
     }
    }
   },
-  "/superbowl/search": {
+  "/superbowls/search": {
    "get": {
     "tags": [
      "Super Bowls"

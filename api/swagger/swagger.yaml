@@ -60,7 +60,7 @@ paths:
 
         405:
           description: Invalid input
-  /superbowl/search:
+  /superbowls/search:
     get:
       tags:
         - Super Bowls
