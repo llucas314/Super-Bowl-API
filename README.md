@@ -14,11 +14,12 @@ This repository is a Super Bowl Facts API created with ExpressJS and MongoDB. It
 
 * Javascript/ExpressJS
 * MongoDB/Mongoose
+* YAML
 
 
 ## Documentation
 
-
+[Check out the documentation here!](https://app.swaggerhub.com/apis-docs/llucas314/super-bowl_center/1.0.0)
 
 ## Contributing
 
@@ -30,7 +31,8 @@ I would like to improve the searching capabilites.
 
 ## Credit
 
-[Kaggle.com](https://www.kaggle.com/achyutbabu/tv-halftime-shows-and-the-big-game#super_bowls.csv) - Super Bowl Dataset
+Super Bowl dataset from [Kaggle.com](https://www.kaggle.com/achyutbabu/tv-halftime-shows-and-the-big-game#super_bowls.csv)
+Documentation built using [SwaggerHub.com](https://app.swaggerhub.com/search)
 
 ## Authors
 
