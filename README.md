@@ -1,6 +1,6 @@
 # super-bowl-api
 
-This repository is a Super Bowl Facts API created with ExpressJS and MongoDB. It lists stats about the games, halftime shows, and ratings.
+This repository is a Super Bowl facts API created with ExpressJS and MongoDB. It lists stats about the games, halftime shows, and ratings.
 
 
 ## Screenshots
@@ -31,8 +31,8 @@ I would like to improve the searching capabilites.
 
 ## Credit
 
-Super Bowl dataset from [Kaggle.com](https://www.kaggle.com/achyutbabu/tv-halftime-shows-and-the-big-game#super_bowls.csv)
-Documentation built using [SwaggerHub.com](https://app.swaggerhub.com/search)
+* Super Bowl dataset from [Kaggle.com](https://www.kaggle.com/achyutbabu/tv-halftime-shows-and-the-big-game#super_bowls.csv)
+* Documentation built using [SwaggerHub.com](https://app.swaggerhub.com/search)
 
 ## Authors
 
