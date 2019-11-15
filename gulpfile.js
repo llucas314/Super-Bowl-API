@@ -12,7 +12,3 @@ gulp.task("swagger", function() {
     JSON.stringify(doc, null, " ")
   );
 });
-
-gulp.task("watch", function() {
-  gulp.watch("./api/swagger/swagger.yaml", ["swagger"]);
-});
