@@ -83,6 +83,43 @@
     }
    }
   },
+  "/superbowl/search": {
+   "get": {
+    "tags": [
+     "Super Bowls"
+    ],
+    "summary": "Finds games by state",
+    "description": "Enter a state name",
+    "operationId": "getState",
+    "produces": [
+     "application/json"
+    ],
+    "parameters": [
+     {
+      "name": "state",
+      "in": "query",
+      "description": "Name",
+      "required": true,
+      "type": "string",
+      "collectionFormat": "multi"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "successful operation",
+      "schema": {
+       "type": "array",
+       "items": {
+        "$ref": "#/definitions/SuperBowl"
+       }
+      }
+     },
+     "400": {
+      "description": "Invalid state value"
+     }
+    }
+   }
+  },
   "/superbowls/{id}": {
    "get": {
     "tags": [
