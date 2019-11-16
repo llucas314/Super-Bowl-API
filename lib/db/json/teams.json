@@ -639,7 +639,7 @@
     "strStadium": "NRG Stadium",
     "strKeywords": "",
     "strRSS": "",
-    "strStadiumThumb": null,
+    "strStadiumThumb": "https://uberblogapi.10upcdn.com/wp-content/uploads/2018/08/nrg-stadium-1080x540.jpg",
     "strStadiumDescription": "NRG Stadium (formerly Reliant Stadium) is a multi-purpose stadium, in Houston, Texas, USA. NRG Stadium has a seating capacity of 71,054, a total area of 1,900,000 square feet (180,000 m2) with a 97,000 sq ft (9,000 m2) playing surface. NRG Stadium employs two different playing surfaces; a natural grass field is used for professional football games while an artificial surface, AstroTurf GameDay Grass, is used for college and high school games. Both surfaces are laid out on interlocking trays.",
     "strStadiumLocation": "Houston, Texas",
     "intStadiumCapacity": "71054",
@@ -1662,5 +1662,49 @@
     "strTeamBanner": "https://www.thesportsdb.com/images/media/team/banner/qqqxqp1421524747.jpg",
     "strYoutube": "www.youtube.com/channel/UC2a0ENbCZqIO5C1fWXGXZXA",
     "strLocked": "unlocked"
+  },
+  {
+    "strStadiumThumb": "https://sports.cbsimg.net/images/blogs/sun-life-stadium-ross-unhappy.jpg",
+    "strStadium": "Sun Life Stadium"
+  },
+  {
+    "strStadiumThumb": "https://cmgpbpdailydolphin.files.wordpress.com/2016/05/082715-accent-dolphins-food15.jpg",
+    "strStadium": "Dolphin Stadium"
+  },
+  {
+    "strStadiumThumb": "https://kpbs.media.clients.ellingtoncms.com/img/croppedphotos/2017/02/01/qualcomm_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d",
+    "strStadium": "Qualcomm Stadium"
+  },
+  {
+    "strStadiumThumb": "https://deadballbaseball.com/wp-content/uploads/2013/12/OrangeBowl.jpg",
+    "strStadium": "Orange Bowl"
+  },
+  {
+    "strStadiumThumb": "https://pbs.twimg.com/media/Dpeb3-QU8AAYfEU.jpg",
+    "strStadium": "Joe Robbie Stadium"
+  },
+  {
+    "strStadiumThumb": "https://asunow.asu.edu/sites/default/files/styles/asu_news_article_hero/public/asu-stadium-sw-looking-ne-context_revised.jpg?itok=mkFYCjkd",
+    "strStadium": "Sun Devil Stadium"
+  },
+  {
+    "strStadiumThumb": "https://www.discoverlosangeles.com/sites/default/files/styles/hero/public/images/2019-08/100th%20Rose%20Bowl%20Game%20Stanford%20vs%20Michigan%20State.jpg?itok=b2KpWi-j",
+    "strStadium": "Rose Bowl"
+  },
+  {
+    "strStadiumThumb": "https://usatthebiglead.files.wordpress.com/2015/10/gettyimages-527023.jpg?w=1000&h=600&crop=1",
+    "strStadium": "Pontiac Silverdome"
+  },
+  {
+    "strStadiumThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/2008-1115-006-USC-Stanford-PAN.jpg/1800px-2008-1115-006-USC-Stanford-PAN.jpg",
+    "strStadium": "Stanford Stadium"
+  },
+  {
+    "strStadiumThumb": "https://deadballbaseball.com/wp-content/uploads/2013/12/OrangeBowl.jpg",
+    "strStadium": "Pro Player Stadium"
+  },
+  {
+    "strStadiumThumb": "https://www.stadiumsofprofootball.com/wp-content/uploads/2016/07/qualcomm16_top.jpg",
+    "strStadium": "Jack Murphy Stadium"
   }
 ]
